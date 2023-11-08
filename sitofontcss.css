@@ -1,0 +1,113 @@
+body{
+    background-color: rgb(214, 214, 214);
+}
+
+#titolo{
+    text-align: center;
+    padding: 1%;
+}
+
+#ptitolo{
+    background-color: aliceblue;
+}
+
+#contatti{
+    padding-bottom: 4px;
+    padding-left: 8px;
+    font-family: 'Playfair Display', serif;
+}
+
+
+
+#pstruttura{
+    background-color: aliceblue;
+    padding: 1%;
+    height: 550px;
+}
+
+#struttura{
+    font-family: "Brush Script MT", cursive;
+}
+
+img{
+    position: relative;
+    left: 15%;
+}
+
+#pfooter{
+    background-color: aliceblue;
+    height: 130px;
+}
+
+#footer{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 20px;
+}
+
+
+/* inizio correzione colore link */
+.link:link{
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+
+.link:visited{
+    color: rgb(222, 55, 255);
+    background-color: transparent;
+    text-decoration: none;
+}
+.link:hover{
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.link:active{
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+/* fine correzione colore link */
+
+
+.fa:link{
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+  
+.fa:hover {
+    opacity: 0.7;
+}
+  
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+  
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.fa-pinterest{
+    background: #cb2027;
+    color: white;
+}
+  
+.fa-snapchat-ghost{
+    background: #fffc00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
